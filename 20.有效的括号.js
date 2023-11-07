@@ -35,7 +35,8 @@ var isValid = function (s) {
         return false;
       }
     }
-  }
+  } 
+  // 入栈但是没弹出也是false 如({[
   return !stack.length;
 };
-// @lc code=end
+// @lecode=end
